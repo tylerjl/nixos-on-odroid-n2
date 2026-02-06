@@ -4,7 +4,7 @@
   imports = [
     (modulesPath + "/profiles/base.nix")
     (modulesPath + "/profiles/installation-device.nix")
-    (modulesPath + "/installer/cd-dvd/sd-image.nix")
+    (modulesPath + "/installer/sd-card/sd-image.nix")
     ./default.nix
   ];
   sdImage = {
